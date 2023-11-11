@@ -24,4 +24,4 @@ def home():
 		return render_template('home.html', download=0, upload=0,ping=0,client="---")	
 
 if __name__ == '__main__':
-	app.run(debug-false,host='0.0.0.0')
+	app.run
